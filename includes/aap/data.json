@@ -1,0 +1,1154 @@
+[
+    {
+        "day": "friday",
+        "weather": "freezing",
+        "device": "desktop",
+        "station": "top 40", 
+        "type": "changed your antifreeze",
+        "track": "FridayFreezeDesktopTophitsAntifreeze.mp3"
+    },
+    {
+        "day": "friday",
+        "weather": "freezing",
+        "device": "mobile",
+        "station": "top 40", 
+        "type": "changed your antifreeze",
+        "track": "FridayFreezeMobileTophitsAntifreeze.mp3"
+    },
+    {
+        "day": "friday",
+        "weather": "not too bad",
+        "device": "desktop",
+        "station": "top 40", 
+        "type": "changed your motor oil",
+        "track": "FridayNotToBadDesktopTophitsMotorOil.mp3"
+    },
+    {
+        "day": "friday",
+        "weather": "not too bad",
+        "device": "mobile",
+        "station": "top 40", 
+        "type": "changed your motor oil",
+        "track": "FridayNotToBadMobileTophitsMotorOil.mp3"
+    },
+    {
+        "day": "friday",
+        "weather": "rainy",
+        "device": "desktop",
+        "station": "top 40", 
+        "type": "changed your wiper blades",
+        "track": "FridayRainDesktopTophitsWipers.mp3"
+    },
+    {
+        "day": "friday",
+        "weather": "rainy",
+        "device": "mobile",
+        "station": "top 40", 
+        "type": "changed your wiper blades",
+        "track": "FridayRainyMobileTophitsWipers.mp3"
+    },
+    {
+        "day": "friday",
+        "weather": "sweltering",
+        "device": "desktop",
+        "station": "top 40", 
+        "type": "changed your coolant",
+        "track": "FridaySwelterDesktopTophitsCoolant.mp3"
+    },
+    {
+        "day": "friday",
+        "weather": "sweltering",
+        "device": "mobile",
+        "station": "top 40", 
+        "type": "changed your coolant",
+        "track": "FridaySwelterMobileTophitsCoolant.mp3"
+    },
+    {
+        "day": "monday",
+        "weather": "freezing",
+        "device": "desktop",
+        "station": "top 40", 
+        "type": "changed your antifreeze",
+        "track": "MondayFreezeDesktopTophitsAntifreeze.mp3"
+    },
+    {
+        "day": "monday",
+        "weather": "freezing",
+        "device": "mobile",
+        "station": "top 40", 
+        "type": "changed your antifreeze",
+        "track": "MondayFreezeMobileTophitsAntifreeze.mp3"
+    },
+    {
+        "day": "monday",
+        "weather": "not too bad",
+        "device": "desktop",
+        "station": "top 40", 
+        "type": "changed your motor oil",
+        "track": "MondayNotToBadDesktopTophitsMotorOil.mp3"
+    },
+    {
+        "day": "monday",
+        "weather": "not too bad",
+        "device": "mobile",
+        "station": "top 40", 
+        "type": "changed your motor oil",
+        "track": "MondayNotToBadMobileTophitsMotorOil.mp3"
+    },
+    {
+        "day": "monday",
+        "weather": "rainy",
+        "device": "desktop",
+        "station": "top 40", 
+        "type": "changed your wiper blades",
+        "track": "MondayRainDesktopTophitsWipers.mp3"
+    },
+    {
+        "day": "monday",
+        "weather": "rainy",
+        "device": "mobile",
+        "station": "top 40", 
+        "type": "changed your wiper blades",
+        "track": "MondayRainyMobileTophitsWipers.mp3"
+    },
+    {
+        "day": "monday",
+        "weather": "sweltering",
+        "device": "desktop",
+        "station": "top 40", 
+        "type": "changed your coolant",
+        "track": "MondaySwelterDesktopTophitsCoolant.mp3"
+    },
+    {
+        "day": "monday",
+        "weather": "sweltering",
+        "device": "mobile",
+        "station": "top 40", 
+        "type": "changed your coolant",
+        "track": "MondaySwelterMobileTophitsCoolant.mp3"
+    },
+    {
+        "day": "wednesday",
+        "weather": "freezing",
+        "device": "desktop",
+        "station": "top 40", 
+        "type": "changed your antifreeze",
+        "track": "WednesdayFreezeDesktopTophitsAntifreeze.mp3"
+    },
+    {
+        "day": "wednesday",
+        "weather": "freezing",
+        "device": "mobile",
+        "station": "top 40", 
+        "type": "changed your antifreeze",
+        "track": "WednesdayFreezeMobileTophitsAntifreeze.mp3"
+    },
+    {
+        "day": "wednesday",
+        "weather": "not too bad",
+        "device": "desktop",
+        "station": "top 40", 
+        "type": "changed your motor oil",
+        "track": "WednesdayNotToBadDesktopTophitsMotorOil.mp3"
+    },
+    {
+        "day": "wednesday",
+        "weather": "not too bad",
+        "device": "mobile",
+        "station": "top 40", 
+        "type": "changed your motor oil",
+        "track": "WednesdayNotToBadMobileTophitsMotorOil.mp3"
+    },
+    {
+        "day": "wednesday",
+        "weather": "rainy",
+        "device": "desktop",
+        "station": "top 40", 
+        "type": "changed your wiper blades",
+        "track": "WednesdayRainDesktopTophitsWipers.mp3"
+    },
+    {
+        "day": "wednesday",
+        "weather": "rainy",
+        "device": "mobile",
+        "station": "top 40", 
+        "type": "changed your wiper blades",
+        "track": "WednesdayRainyMobileTophitsWipers.mp3"
+    },
+    {
+        "day": "wednesday",
+        "weather": "sweltering",
+        "device": "desktop",
+        "station": "top 40", 
+        "type": "changed your coolant",
+        "track": "WednesdaySwelterDesktopTophitsCoolant.mp3"
+    },
+    {
+        "day": "wednesday",
+        "weather": "sweltering",
+        "device": "mobile",
+        "station": "top 40", 
+        "type": "changed your coolant",
+        "track": "WednesdaySwelterMobileTophitsCoolant.mp3"
+    },
+    {
+        "day": "friday",
+        "weather": "freezing",
+        "device": "desktop",
+        "station": "dance", 
+        "type": "changed your coolant",
+        "track": "FridayFreezeDesktopDanceCoolant.mp3"
+    },
+    {
+        "day": "friday",
+        "weather": "freezing",
+        "device": "mobile",
+        "station": "dance", 
+        "type": "changed your coolant",
+        "track": "FridayFreezeMobileDanceCoolant.mp3"
+    },
+    {
+        "day": "friday",
+        "weather": "freezing",
+        "device": "tablet",
+        "station": "dance", 
+        "type": "changed your coolant",
+        "track": "FridayFreezeTabletDanceCoolant.mp3"
+    },
+    {
+        "day": "friday",
+        "weather": "freezing",
+        "device": "tablet",
+        "station": "top 40", 
+        "type": "changed your coolant",
+        "track": "FridayFreezeTabletTophitsCoolant.mp3"
+    },
+    {
+        "day": "friday",
+        "weather": "not too bad",
+        "device": "desktop",
+        "station": "dance", 
+        "type": "changed your motor oil",
+        "track": "FridayNotToBadDesktopDanceMotorOil.mp3"
+    },
+    {
+        "day": "friday",
+        "weather": "not too bad",
+        "device": "mobile",
+        "station": "dance", 
+        "type": "changed your motor oil",
+        "track": "FridayNotToBadMobileDanceMotorOil.mp3"
+    },
+    {
+        "day": "friday",
+        "weather": "not too bad",
+        "device": "tablet",
+        "station": "dance", 
+        "type": "changed your motor oil",
+        "track": "FridayNotToBadTabletDanceMotorOil.mp3"
+    },
+    {
+        "day": "friday",
+        "weather": "not too bad",
+        "device": "tablet",
+        "station": "top 40", 
+        "type": "changed your motor oil",
+        "track": "FridayNotToBadTabletTophitsMotorOil.mp3"
+    },
+    {
+        "day": "friday",
+        "weather": "rainy",
+        "device": "desktop",
+        "station": "dance", 
+        "type": "changed your wiper blades",
+        "track": "FridayRainyDesktopDanceWipers.mp3"
+    },
+    {
+        "day": "friday",
+        "weather": "rainy",
+        "device": "mobile",
+        "station": "dance", 
+        "type": "changed your wiper blades",
+        "track": "FridayRainyMobileDanceWipers.mp3"
+    },
+    {
+        "day": "friday",
+        "weather": "rainy",
+        "device": "tablet",
+        "station": "dance", 
+        "type": "changed your wiper blades",
+        "track": "FridayRainyTabletDanceWipers.mp3"
+    },
+    {
+        "day": "friday",
+        "weather": "rainy",
+        "device": "tablet",
+        "station": "top 40", 
+        "type": "changed your wiper blades",
+        "track": "FridayRainyTabletTophitsWipers.mp3"
+    },
+    {
+        "day": "friday",
+        "weather": "sweltering",
+        "device": "desktop",
+        "station": "dance", 
+        "type": "changed your coolant",
+        "track": "FridaySwelterDesktopDanceCoolant.mp3"
+    },
+    {
+        "day": "friday",
+        "weather": "sweltering",
+        "device": "mobile",
+        "station": "dance", 
+        "type": "changed your coolant",
+        "track": "FridaySwelterMobileDanceCoolant.mp3"
+    },
+    {
+        "day": "friday",
+        "weather": "sweltering",
+        "device": "tablet",
+        "station": "dance", 
+        "type": "changed your coolant",
+        "track": "FridaySwelterTabletDanceCoolant.mp3"
+    },
+    {
+        "day": "friday",
+        "weather": "sweltering",
+        "device": "tablet",
+        "station": "top 40", 
+        "type": "changed your coolant",
+        "track": "FridaySwelterTabletTophitsCoolant.mp3"
+    },
+    {
+        "day": "monday",
+        "weather": "freezing",
+        "device": "desktop",
+        "station": "dance", 
+        "type": "changed your coolant",
+        "track": "MondayFreezeDesktopDanceCoolant.mp3"
+    },
+    {
+        "day": "monday",
+        "weather": "freezing",
+        "device": "mobile",
+        "station": "dance", 
+        "type": "changed your coolant",
+        "track": "MondayFreezeMobileDanceCoolant.mp3"
+    },
+    {
+        "day": "monday",
+        "weather": "freezing",
+        "device": "tablet",
+        "station": "dance", 
+        "type": "changed your coolant",
+        "track": "MondayFreezeTabletDanceCoolant.mp3"
+    },
+    {
+        "day": "monday",
+        "weather": "freezing",
+        "device": "tablet",
+        "station": "top 40", 
+        "type": "changed your coolant",
+        "track": "MondayFreezeTabletTophitsCoolant.mp3"
+    },
+    {
+        "day": "monday",
+        "weather": "not too bad",
+        "device": "desktop",
+        "station": "dance", 
+        "type": "changed your motor oil",
+        "track": "MondayNotToBadDesktopDanceMotorOil.mp3"
+    },
+    {
+        "day": "monday",
+        "weather": "not too bad",
+        "device": "mobile",
+        "station": "dance", 
+        "type": "changed your motor oil",
+        "track": "MondayNotToBadMobileDanceMotorOil.mp3"
+    },
+    {
+        "day": "monday",
+        "weather": "not too bad",
+        "device": "tablet",
+        "station": "dance", 
+        "type": "changed your motor oil",
+        "track": "MondayNotToBadTabletDanceMotorOil.mp3"
+    },
+    {
+        "day": "monday",
+        "weather": "not too bad",
+        "device": "tablet",
+        "station": "top 40", 
+        "type": "changed your motor oil",
+        "track": "MondayNotToBadTabletTophitsMotorOil.mp3"
+    },
+    {
+        "day": "monday",
+        "weather": "rainy",
+        "device": "desktop",
+        "station": "dance", 
+        "type": "changed your wiper blades",
+        "track": "MondayRainyDesktopDanceWipers.mp3"
+    },
+    {
+        "day": "monday",
+        "weather": "rainy",
+        "device": "mobile",
+        "station": "dance", 
+        "type": "changed your wiper blades",
+        "track": "MondayRainyMobileDanceWipers.mp3"
+    },
+    {
+        "day": "monday",
+        "weather": "rainy",
+        "device": "tablet",
+        "station": "dance", 
+        "type": "changed your wiper blades",
+        "track": "MondayRainyTabletDanceWipers.mp3"
+    },
+    {
+        "day": "monday",
+        "weather": "rainy",
+        "device": "tablet",
+        "station": "top 40", 
+        "type": "changed your wiper blades",
+        "track": "MondayRainyTabletTophitsWipers.mp3"
+    },
+    {
+        "day": "monday",
+        "weather": "sweltering",
+        "device": "desktop",
+        "station": "dance", 
+        "type": "changed your coolant",
+        "track": "MondaySwelterDesktopDanceCoolant.mp3"
+    },
+    {
+        "day": "monday",
+        "weather": "sweltering",
+        "device": "mobile",
+        "station": "dance", 
+        "type": "changed your coolant",
+        "track": "MondaySwelterMobileDanceCoolant.mp3"
+    },
+    {
+        "day": "monday",
+        "weather": "sweltering",
+        "device": "tablet",
+        "station": "dance", 
+        "type": "changed your coolant",
+        "track": "MondaySwelterTabletDanceCoolant.mp3"
+    },
+    {
+        "day": "monday",
+        "weather": "sweltering",
+        "device": "tablet",
+        "station": "top 40", 
+        "type": "changed your coolant",
+        "track": "MondaySwelterTabletTophitsCoolant.mp3"
+    },
+    {
+        "day": "wednesday",
+        "weather": "freezing",
+        "device": "desktop",
+        "station": "dance", 
+        "type": "changed your coolant",
+        "track": "WednesdayFreezeDesktopDanceCoolant.mp3"
+    },
+    {
+        "day": "wednesday",
+        "weather": "freezing",
+        "device": "mobile",
+        "station": "dance", 
+        "type": "changed your coolant",
+        "track": "WednesdayFreezeMobileDanceCoolant.mp3"
+    },
+    {
+        "day": "wednesday",
+        "weather": "freezing",
+        "device": "tablet",
+        "station": "dance", 
+        "type": "changed your coolant",
+        "track": "WednesdayFreezeTabletDanceCoolant.mp3"
+    },
+    {
+        "day": "wednesday",
+        "weather": "freezing",
+        "device": "tablet",
+        "station": "top 40", 
+        "type": "changed your coolant",
+        "track": "WednesdayFreezeTabletTophitsCoolant.mp3"
+    },
+    {
+        "day": "wednesday",
+        "weather": "not too bad",
+        "device": "desktop",
+        "station": "dance", 
+        "type": "changed your motor oil",
+        "track": "WednesdayNotToBadDesktopDanceMotorOil.mp3"
+    },
+    {
+        "day": "wednesday",
+        "weather": "not too bad",
+        "device": "mobile",
+        "station": "dance", 
+        "type": "changed your motor oil",
+        "track": "WednesdayNotToBadMobileDanceMotorOil.mp3"
+    },
+    {
+        "day": "wednesday",
+        "weather": "not too bad",
+        "device": "tablet",
+        "station": "dance", 
+        "type": "changed your motor oil",
+        "track": "WednesdayNotToBadTabletDanceMotorOil.mp3"
+    },
+    {
+        "day": "wednesday",
+        "weather": "not too bad",
+        "device": "tablet",
+        "station": "top 40", 
+        "type": "changed your motor oil",
+        "track": "WednesdayNotToBadTabletTophitsMotorOil.mp3"
+    },
+    {
+        "day": "wednesday",
+        "weather": "rainy",
+        "device": "desktop",
+        "station": "dance", 
+        "type": "changed your wiper blades",
+        "track": "WednesdayRainyDesktopDanceWipers.mp3"
+    },
+    {
+        "day": "wednesday",
+        "weather": "rainy",
+        "device": "mobile",
+        "station": "dance", 
+        "type": "changed your wiper blades",
+        "track": "WednesdayRainyMobileDanceWipers.mp3"
+    },
+    {
+        "day": "wednesday",
+        "weather": "rainy",
+        "device": "tablet",
+        "station": "dance", 
+        "type": "changed your wiper blades",
+        "track": "WednesdayRainyTabletDanceWipers.mp3"
+    },
+    {
+        "day": "wednesday",
+        "weather": "rainy",
+        "device": "tablet",
+        "station": "top 40", 
+        "type": "changed your wiper blades",
+        "track": "WednesdayRainyTabletTophitsWipers.mp3"
+    },
+    {
+        "day": "wednesday",
+        "weather": "sweltering",
+        "device": "desktop",
+        "station": "dance", 
+        "type": "changed your coolant",
+        "track": "WednesdaySwelterDesktopDanceCoolant.mp3"
+    },
+    {
+        "day": "wednesday",
+        "weather": "sweltering",
+        "device": "mobile",
+        "station": "dance", 
+        "type": "changed your coolant",
+        "track": "WednesdaySwelterMobileDanceCoolant.mp3"
+    },
+    {
+        "day": "wednesday",
+        "weather": "sweltering",
+        "device": "tablet",
+        "station": "dance", 
+        "type": "changed your coolant",
+        "track": "WednesdaySwelterTabletDanceCoolant.mp3"
+    },
+    {
+        "day": "wednesday",
+        "weather": "sweltering",
+        "device": "tablet",
+        "station": "top 40", 
+        "type": "changed your coolant",
+        "track": "WednesdaySwelterTabletTophitsCoolant.mp3"
+    },
+    {
+        "day": "friday",
+        "weather": "freezing",
+        "device": "desktop",
+        "station": "acoustic", 
+        "type": "changed your coolant",
+        "track": "FridayFreezeDesktopAcousticCoolant.mp3"
+    },
+    {
+        "day": "friday",
+        "weather": "freezing",
+        "device": "desktop",
+        "station": "country", 
+        "type": "changed your coolant",
+        "track": "FridayFreezeDesktopCountryCoolant.mp3"
+    },
+    {
+        "day": "friday",
+        "weather": "freezing",
+        "device": "mobile",
+        "station": "acoustic", 
+        "type": "changed your coolant",
+        "track": "FridayFreezeMobileAcousticCoolant.mp3"
+    },
+    {
+        "day": "friday",
+        "weather": "freezing",
+        "device": "mobile",
+        "station": "country", 
+        "type": "changed your coolant",
+        "track": "FridayFreezeMobileCountryCoolant.mp3"
+    },
+    {
+        "day": "friday",
+        "weather": "freezing",
+        "device": "tablet",
+        "station": "acoustic", 
+        "type": "changed your coolant",
+        "track": "FridayFreezeTabletAcousticCoolant.mp3"
+    },
+    {
+        "day": "friday",
+        "weather": "freezing",
+        "device": "tablet",
+        "station": "country", 
+        "type": "changed your coolant",
+        "track": "FridayFreezeTabletCountryCoolant.mp3"
+    },
+    {
+        "day": "friday",
+        "weather": "not too bad",
+        "device": "desktop",
+        "station": "acoustic", 
+        "type": "changed your motor oil",
+        "track": "FridayNotToBadDesktopAcousticMotorOil.mp3"
+    },
+    {
+        "day": "friday",
+        "weather": "not too bad",
+        "device": "desktop",
+        "station": "country", 
+        "type": "changed your motor oil",
+        "track": "FridayNotToBadDesktopCountryMotorOil.mp3"
+    },
+    {
+        "day": "friday",
+        "weather": "not too bad",
+        "device": "mobile",
+        "station": "acoustic", 
+        "type": "changed your motor oil",
+        "track": "FridayNotToBadMobileAcousticMotorOil.mp3"
+    },
+    {
+        "day": "friday",
+        "weather": "not too bad",
+        "device": "mobile",
+        "station": "country",  
+        "type": "changed your motor oil",
+        "track": "FridayNotToBadMobileCountryMotorOil.mp3"
+    },
+    {
+        "day": "friday",
+        "weather": "not too bad",
+        "device": "tablet",
+        "station": "acoustic", 
+        "type": "changed your motor oil",
+        "track": "FridayNotToBadTabletAcousticMotorOil.mp3"
+    },
+    {
+        "day": "friday",
+        "weather": "not too bad",
+        "device": "tablet",
+        "station": "country", 
+        "type": "changed your motor oil",
+        "track": "FridayNotToBadTabletCountryMotorOil.mp3"
+    },
+    {
+        "day": "friday",
+        "weather": "rainy",
+        "device": "desktop",
+        "station": "acoustic", 
+        "type": "changed your wiper blades",
+        "track": "FridayRainyDesktopAcousticWipers.mp3"
+    },
+    {
+        "day": "friday",
+        "weather": "rainy",
+        "device": "desktop",
+        "station": "country", 
+        "type": "changed your wiper blades",
+        "track": "FridayRainyDesktopCountryWipers.mp3"
+    },
+    {
+        "day": "friday",
+        "weather": "rainy",
+        "device": "mobile",
+        "station": "acoustic", 
+        "type": "changed your wiper blades",
+        "track": "FridayRainyMobileAcousticWipers.mp3"
+    },
+    {
+        "day": "friday",
+        "weather": "rainy",
+        "device": "mobile",
+        "station": "country", 
+        "type": "changed your wiper blades",
+        "track": "FridayRainyMobileCountryWipers.mp3"
+    },
+    {
+        "day": "friday",
+        "weather": "rainy",
+        "device": "tablet",
+        "station": "acoustic", 
+        "type": "changed your wiper blades",
+        "track": "FridayRainyTabletAcousticWipers.mp3"
+    },
+    {
+        "day": "friday",
+        "weather": "rainy",
+        "device": "tablet",
+        "station": "country", 
+        "type": "changed your wiper blades",
+        "track": "FridayRainyTabletCountryWipers.mp3"
+    },
+    {
+        "day": "friday",
+        "weather": "sweltering",
+        "device": "desktop",
+        "station": "acoustic", 
+        "type": "changed your coolant",
+        "track": "FridaySwelterDesktopAcousticCoolant.mp3"
+    },
+    {
+        "day": "friday",
+        "weather": "sweltering",
+        "device": "desktop",
+        "station": "country", 
+        "type": "changed your coolant",
+        "track": "FridaySwelterDesktopCountryCoolant.mp3"
+    },
+    {
+        "day": "friday",
+        "weather": "sweltering",
+        "device": "mobile",
+        "station": "acoustic", 
+        "type": "changed your coolant",
+        "track": "FridaySwelterMobileAcousticCoolant.mp3"
+    },
+    {
+        "day": "friday",
+        "weather": "sweltering",
+        "device": "mobile",
+        "station": "country", 
+        "type": "changed your coolant",
+        "track": "FridaySwelterMobileCountryCoolant.mp3"
+    },
+    {
+        "day": "friday",
+        "weather": "sweltering",
+        "device": "tablet",
+        "station": "acoustic", 
+        "type": "changed your coolant",
+        "track": "FridaySwelterTabletAcousticCoolant.mp3"
+    },
+    {
+        "day": "friday",
+        "weather": "sweltering",
+        "device": "tablet",
+        "station": "country", 
+        "type": "changed your coolant",
+        "track": "FridaySwelterTabletCountryCoolant.mp3"
+    },
+    {
+        "day": "monday",
+        "weather": "freezing",
+        "device": "desktop",
+        "station": "acoustic", 
+        "type": "changed your coolant",
+        "track": "MondayFreezeDesktopAcousticCoolant.mp3"
+    },
+    {
+        "day": "monday",
+        "weather": "freezing",
+        "device": "desktop",
+        "station": "country", 
+        "type": "changed your coolant",
+        "track": "MondayFreezeDesktopCountryCoolant.mp3"
+    },
+    {
+        "day": "monday",
+        "weather": "freezing",
+        "device": "mobile",
+        "station": "acoustic", 
+        "type": "changed your coolant",
+        "track": "MondayFreezeMobileAcousticCoolant.mp3"
+    },
+    {
+        "day": "monday",
+        "weather": "freezing",
+        "device": "mobile",
+        "station": "country", 
+        "type": "changed your coolant",
+        "track": "MondayFreezeMobileCountryCoolant.mp3"
+    },
+    {
+        "day": "monday",
+        "weather": "freezing",
+        "device": "tablet",
+        "station": "acoustic", 
+        "type": "changed your coolant",
+        "track": "MondayFreezeTabletAcousticCoolant.mp3"
+    },
+    {
+        "day": "monday",
+        "weather": "freezing",
+        "device": "tablet",
+        "station": "country", 
+        "type": "changed your coolant",
+        "track": "MondayFreezeTabletCountryCoolant.mp3"
+    },
+    {
+        "day": "monday",
+        "weather": "not too bad",
+        "device": "desktop",
+        "station": "acoustic", 
+        "type": "changed your motor oil",
+        "track": "MondayNotToBadDesktopAcousticMotorOil.mp3"
+    },
+    {
+        "day": "monday",
+        "weather": "not too bad",
+        "device": "desktop",
+        "station": "country", 
+        "type": "changed your motor oil",
+        "track": "MondayNotToBadDesktopCountryMotorOil.mp3"
+    },
+    {
+        "day": "monday",
+        "weather": "not too bad",
+        "device": "mobile",
+        "station": "acoustic", 
+        "type": "changed your motor oil",
+        "track": "MondayNotToBadMobileAcousticMotorOil.mp3"
+    },
+    {
+        "day": "monday",
+        "weather": "not too bad",
+        "device": "mobile",
+        "station": "country", 
+        "type": "changed your motor oil",
+        "track": "MondayNotToBadMobileCountryMotorOil.mp3"
+    },
+    {
+        "day": "monday",
+        "weather": "not too bad",
+        "device": "tablet",
+        "station": "acoustic", 
+        "type": "changed your motor oil",
+        "track": "MondayNotToBadTabletAcousticMotorOil.mp3"
+    },
+    {
+        "day": "monday",
+        "weather": "not too bad",
+        "device": "tablet",
+        "station": "country",  
+        "type": "changed your motor oil",
+        "track": "MondayNotToBadTabletCountryMotorOil.mp3"
+    },
+    {
+        "day": "monday",
+        "weather": "rainy",
+        "device": "desktop",
+        "station": "acoustic", 
+        "type": "changed your wiper blades",
+        "track": "MondayRainyDesktopAcousticWipers.mp3"
+    },
+    {
+        "day": "monday",
+        "weather": "rainy",
+        "device": "desktop",
+        "station": "country", 
+        "type": "changed your wiper blades",
+        "track": "MondayRainyDesktopCountryWipers.mp3"
+    },
+    {
+        "day": "monday",
+        "weather": "rainy",
+        "device": "mobile",
+        "station": "acoustic", 
+        "type": "changed your wiper blades",
+        "track": "MondayRainyMobileAcousticWipers.mp3"
+    },
+    {
+        "day": "monday",
+        "weather": "rainy",
+        "device": "mobile",
+        "station": "country", 
+        "type": "changed your wiper blades",
+        "track": "MondayRainyMobileCountryWipers.mp3"
+    },
+    {
+        "day": "monday",
+        "weather": "rainy",
+        "device": "tablet",
+        "station": "acoustic", 
+        "type": "changed your wiper blades",
+        "track": "MondayRainyTabletAcousticWipers.mp3"
+    },
+    {
+        "day": "monday",
+        "weather": "rainy",
+        "device": "tablet",
+        "station": "country",  
+        "type": "changed your wiper blades",
+        "track": "MondayRainyTabletCountryWipers.mp3"
+    },
+    {
+        "day": "monday",
+        "weather": "sweltering",
+        "device": "desktop",
+        "station": "acoustic", 
+        "type": "changed your coolant",
+        "track": "MondaySwelterDesktopAcousticCoolant.mp3"
+    },
+    {
+        "day": "monday",
+        "weather": "sweltering",
+        "device": "desktop",
+        "station": "country", 
+        "type": "changed your coolant",
+        "track": "MondaySwelterDesktopCountryCoolant.mp3"
+    },
+    {
+        "day": "monday",
+        "weather": "sweltering",
+        "device": "mobile",
+        "station": "acoustic", 
+        "type": "changed your coolant",
+        "track": "MondaySwelterMobileAcousticCoolant.mp3"
+    },
+    {
+        "day": "monday",
+        "weather": "sweltering",
+        "device": "mobile",
+        "station": "country", 
+        "type": "changed your coolant",
+        "track": "MondaySwelterMobileCountryCoolant.mp3"
+    },
+    {
+        "day": "monday",
+        "weather": "sweltering",
+        "device": "tablet",
+        "station": "acoustic", 
+        "type": "changed your coolant",
+        "track": "MondaySwelterTabletAcousticCoolant.mp3"
+    },
+    {
+        "day": "monday",
+        "weather": "sweltering",
+        "device": "tablet",
+        "station": "country", 
+        "type": "changed your coolant",
+        "track": "MondaySwelterTabletCountryCoolant.mp3"
+    },
+    {
+        "day": "wednesday",
+        "weather": "freezing",
+        "device": "desktop",
+        "station": "acoustic", 
+        "type": "changed your coolant",
+        "track": "WednesdayFreezeDesktopAcousticCoolant.mp3"
+    },
+    {
+        "day": "wednesday",
+        "weather": "freezing",
+        "device": "desktop",
+        "station": "country", 
+        "type": "changed your coolant",
+        "track": "WednesdayFreezeDesktopCountryCoolant.mp3"
+    },
+    {
+        "day": "wednesday",
+        "weather": "freezing",
+        "device": "mobile",
+        "station": "acoustic", 
+        "type": "changed your coolant",
+        "track": "WednesdayFreezeMobileAcousticCoolant.mp3"
+    },
+    {
+        "day": "wednesday",
+        "weather": "freezing",
+        "device": "mobile",
+        "station": "country", 
+        "type": "changed your coolant",
+        "track": "WednesdayFreezeMobileCountryCoolant.mp3"
+    },
+    {
+        "day": "wednesday",
+        "weather": "freezing",
+        "device": "tablet",
+        "station": "acoustic", 
+        "type": "changed your coolant",
+        "track": "WednesdayFreezeTabletAcousticCoolant.mp3"
+    },
+    {
+        "day": "wednesday",
+        "weather": "freezing",
+        "device": "tablet",
+        "station": "country", 
+        "type": "changed your coolant",
+        "track": "WednesdayFreezeTabletCountryCoolant.mp3"
+    },
+    {
+        "day": "wednesday",
+        "weather": "not too bad",
+        "device": "desktop",
+        "station": "acoustic", 
+        "type": "changed your motor oil",
+        "track": "WednesdayNotToBadDesktopAcousticMotorOil.mp3"
+    },
+    {
+        "day": "wednesday",
+        "weather": "not too bad",
+        "device": "desktop",
+        "station": "country", 
+        "type": "changed your motor oil",
+        "track": "WednesdayNotToBadDesktopCountryMotorOil.mp3"
+    },
+    {
+        "day": "wednesday",
+        "weather": "not too bad",
+        "device": "mobile",
+        "station": "acoustic", 
+        "type": "changed your motor oil",
+        "track": "WednesdayNotToBadMobileAcousticMotorOil.mp3"
+    },
+    {
+        "day": "wednesday",
+        "weather": "not too bad",
+        "device": "mobile",
+        "station": "country", 
+        "type": "changed your motor oil",
+        "track": "WednesdayNotToBadMobileCountryMotorOil.mp3"
+    },
+    {
+        "day": "wednesday",
+        "weather": "not too bad",
+        "device": "tablet",
+        "station": "acoustic", 
+        "type": "changed your motor oil",
+        "track": "WednesdayNotToBadTabletAcousticMotorOil.mp3"
+    },
+    {
+        "day": "wednesday",
+        "weather": "not too bad",
+        "device": "tablet",
+        "station": "country", 
+        "type": "changed your motor oil",
+        "track": "WednesdayNotToBadTabletCountryMotorOil.mp3"
+    },
+    {
+        "day": "wednesday",
+        "weather": "rainy",
+        "device": "desktop",
+        "station": "acoustic", 
+        "type": "changed your wiper blades",
+        "track": "WednesdayRainyDesktopAcousticWipers.mp3"
+    },
+    {
+        "day": "wednesday",
+        "weather": "rainy",
+        "device": "desktop",
+        "station": "country", 
+        "type": "changed your wiper blades",
+        "track": "WednesdayRainyDesktopCountryWipers.mp3"
+    },
+    {
+        "day": "wednesday",
+        "weather": "rainy",
+        "device": "mobile",
+        "station": "acoustic", 
+        "type": "changed your wiper blades",
+        "track": "WednesdayRainyMobileAcousticWipers.mp3"
+    },
+    {
+        "day": "wednesday",
+        "weather": "rainy",
+        "device": "mobile",
+        "station": "country", 
+        "type": "changed your wiper blades",
+        "track": "WednesdayRainyMobileCountryWipers.mp3"
+    },
+    {
+        "day": "wednesday",
+        "weather": "rainy",
+        "device": "tablet",
+        "station": "acoustic", 
+        "type": "changed your wiper blades",
+        "track": "WednesdayRainyTabletAcousticWipers.mp3"
+    },
+    {
+        "day": "wednesday",
+        "weather": "rainy",
+        "device": "tablet",
+        "station": "country", 
+        "type": "changed your wiper blades",
+        "track": "WednesdayRainyTabletCountryWipers.mp3"
+    },
+    {
+        "day": "wednesday",
+        "weather": "sweltering",
+        "device": "desktop",
+        "station": "acoustic", 
+        "type": "changed your coolant",
+        "track": "WednesdaySwelterDesktopAcousticCoolant.mp3"
+    },
+    {
+        "day": "wednesday",
+        "weather": "sweltering",
+        "device": "desktop",
+        "station": "country", 
+        "type": "changed your coolant",
+        "track": "WednesdaySwelterDesktopCountryCoolant.mp3"
+    },
+    {
+        "day": "wednesday",
+        "weather": "sweltering",
+        "device": "mobile",
+        "station": "acoustic", 
+        "type": "changed your coolant",
+        "track": "WednesdaySwelterMobileAcousticCoolant.mp3"
+    },
+    {
+        "day": "wednesday",
+        "weather": "sweltering",
+        "device": "mobile",
+        "station": "country", 
+        "type": "changed your coolant",
+        "track": "WednesdaySwelterMobileCountryCoolant.mp3"
+    },
+    {
+        "day": "wednesday",
+        "weather": "sweltering",
+        "device": "tablet",
+        "station": "acoustic", 
+        "type": "changed your coolant",
+        "track": "WednesdaySwelterTabletAcousticCoolant.mp3"
+    },
+    {
+        "day": "wednesday",
+        "weather": "sweltering",
+        "device": "tablet",
+        "station": "country", 
+        "type": "changed your coolant",
+        "track": "WednesdaySwelterTabletCountryCoolant.mp3"
+    }
+]

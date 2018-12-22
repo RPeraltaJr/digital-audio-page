@@ -1,0 +1,22 @@
+[
+    {
+        "condition": "Mild Weather",
+        "track": "Lowes_Dynamic_GoodWeatherScotts.mp3"
+    },
+    {
+        "condition": "Rain",
+        "track": "Lowes_Dynamic_RainPaint.mp3"
+    },
+    {
+        "condition": "Snow/(Inventory) Rock Salt",
+        "track": "Lowes_Dynamic_RockSalt.mp3"
+    },
+    {
+        "condition": "Snow/(Inventory) Snow Blower",
+        "track": "Lowes_Dynamic_SnowTroyBilt.mp3"
+    },
+    { 
+        "condition": "Default",
+        "track": "Lowes_Dynamic_DefaultAppl.mp3"
+    }
+]

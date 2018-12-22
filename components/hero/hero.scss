@@ -1,0 +1,66 @@
+header.hero {
+  @extend .flex;
+  min-height: 500px;
+  height: 90vh;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75)), url('../img/hero.jpg') no-repeat center center / cover;
+  color: white;
+
+  @media (max-width: 1199px) {
+    height: 75vh;
+  }
+  @media (max-width: 991px) {
+    height: 50vh;
+  }
+
+  .wrapper {
+    @extend .flex;
+    @extend .flex--wrap;
+    @extend .flex--center;
+    margin-bottom: 0;
+    @extend .section--container;
+    @extend .section--padding;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+    text-align: center;
+    @media (max-width: 767px) {
+      padding-top: 6rem;
+      padding-bottom: 6rem;
+    }
+    .item {
+      @extend .flex;
+      flex: 0 1 100%;
+      .box {
+        @extend .flex--center;
+        width: 100%;
+        max-width: 750px;
+      }
+    }
+  }
+
+  .title {
+    text-transform: uppercase;
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.2rem;
+    @media (max-width: 991px) {
+      font-size: 4rem;
+    }
+    @media (max-width: 767px) {
+      font-size: 3rem;
+    }
+    @media (max-width: 320px) {
+      font-size: 2.5rem;
+  }
+    & + * {
+      margin-top: 1rem;
+    }
+  }
+  .sub {
+    @extend .section--sub;
+    @media (min-width: 992px) {
+      font-size: 2.65rem;
+    }
+  }
+
+}

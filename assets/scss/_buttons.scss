@@ -1,0 +1,59 @@
+.btn {
+  @extend .transition-basic;
+  border-radius: 0;
+  display: block;
+  font-family: $primary-font;
+  font-size: 1.4rem;
+  line-height: 1.2;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  border-radius: 5px;
+  padding: 1.25rem 1.5rem;
+  width: 100%;
+  text-align: left;
+  outline: none;
+  cursor: pointer;
+
+  &-primary {
+    background: $primary-color;
+    border: 1px solid $primary-color;
+    color: white;
+    &:hover,
+    &:active,
+    &:focus,
+    &:target {
+      background: darken($primary-color, 15%);
+      border: 1px solid darken($primary-color, 15%);
+      color: white;
+    }
+  }
+
+  &-secondary {
+    background: $secondary-color;
+    border: 1px solid $secondary-color;
+    color: white;
+    &:hover,
+    &:active,
+    &:focus,
+    &:target {
+      background: darken($secondary-color, 15%);
+      border: 1px solid darken($secondary-color, 15%);
+      color: white;
+    }
+  }
+
+  &-default {
+    background: $grey;
+    border: 1px solid $grey;
+    color: white;
+    &:hover, 
+    &:active,
+    &:focus,
+    &:target {
+      background: $primary-color;
+      border: 1px solid $primary-color;
+      color: white;
+    }
+  }
+
+}

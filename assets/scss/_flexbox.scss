@@ -1,0 +1,19 @@
+.flex {
+  display: flex;
+}
+
+.flex--wrap {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.flex--no-wrap {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+.flex--center {
+  margin: auto;
+}

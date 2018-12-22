@@ -1,0 +1,9 @@
+.DS_Store
+.tmp
+.sass-cache
+node_modules
+.env
+package-lock.json
+*.mp3
+*.webm
+*.wav

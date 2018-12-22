@@ -1,0 +1,143 @@
+section.short-form {
+    @extend .flex;
+    position: relative;
+    overflow: hidden;
+
+    .wrapper {
+        @extend .flex;
+        @extend .flex--wrap;
+        @extend .flex--center;
+        @extend .section--padding;
+        max-width: 1400px;
+        padding-bottom: 10rem;
+        @media (max-width: 767px) {
+            padding-top: 6rem;
+            padding-bottom: 6rem;
+        }
+        .item {
+            @extend .flex;
+            flex: 0 1 32%;
+            &:not(:first-child) {
+                @media (min-width: 1400px) {
+                    margin-right: 2.5rem;
+                }
+                @media (max-width: 1399px) {
+                    margin-right: 2rem;
+                }
+                @media (max-width: 1299px) {
+                    margin-right: 1rem;
+                }
+                @media (max-width: 1250px) {
+                    margin-right: 0;
+                    &:nth-child(even) {
+                        // border: solid 1px red;
+                        margin-right: 1rem;
+                    }
+                }
+                @media (max-width: 991px) {
+                    &:nth-child(even) {
+                        margin-right: 0;
+                    }
+                }
+            }
+            &:nth-child(3n+4) {
+                @media (min-width: 1300px) {
+                    margin-right: 0;
+                    // border: solid 1px red;
+                }
+            }
+            &:nth-child(n+5) {
+                @media (min-width: 1251px) {
+                    // border: solid 1px red;
+                    margin-top: 3rem;
+                }
+            }
+            @media (max-width: 1250px) and (min-width: 992px) {
+                flex: 0 1 48%;
+                &:nth-child(n+4) {
+                    margin-top: 2rem;
+                    // border: solid 1px red;
+                }
+            }
+            @media (max-width: 991px) {
+                flex: 0 1 100%;
+                margin-top: 2rem;
+            }
+            &--main {
+                flex: 0 1 100%;
+                min-height: auto;
+                text-align: center;
+                padding: 0 4rem;
+                margin-bottom: 8rem;
+                @media (max-width: 767px) {
+                    padding: 0;
+                    margin-bottom: 6rem;
+                    margin-top: 0;
+                }
+            }
+            .box {
+                width: 100%;
+            }
+        }
+    }
+
+    .main--title {
+        @extend .section--sub;
+        color: $grey;
+        font-weight: 300;
+        max-width: 820px;
+        margin: 0 auto;
+    }
+
+    .audio-player {
+        @extend .flex;
+        @extend .flex--wrap;
+        justify-content: space-between;
+        .logo {
+            @extend .flex;
+            flex: 1;
+            background: $green-light;
+            max-width: fit-content;
+            padding: 0 2rem;
+            height: 90px;
+            margin-right: 0.5rem;
+            min-width: 140px;
+            @media (max-width: 767px) {
+                flex: 0 1 100%;
+                max-width: 100%;
+                margin: 0 auto 0.5rem;
+            }
+        }
+        .player {
+            @extend .flex;
+            flex: 2;
+            background: $primary-color;
+            height: 90px;
+            padding: 0 1rem 0 0.5rem;
+            @media (max-width: 767px) {
+                flex: 0 1 100%;
+            }
+            .box {
+                @extend .flex--center;
+                max-width: fit-content;
+            }
+        }
+    }
+
+    // logos 
+    img {
+        @extend .flex--center;
+        width: 100%;
+        max-width: 100px;
+        max-height: 50px;
+        // &.staples { max-width: 100px; } 
+        // &.carquest { max-width: 80px; }
+        // &.accountemps { max-width: 100px; }
+        // &.wof { max-width: 100px; }
+        // &.lowes { max-width: 100px; }
+        // &.jeopardy { max-width: 100px; }
+        // &.advanceauto { max-width: 100px; }
+        // &.sobe { max-width: 100px; }
+    }
+
+}

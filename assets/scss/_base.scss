@@ -1,0 +1,29 @@
+html {
+  line-height: 1.5;
+  font-size: 10px
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  @extend .transition-basic;
+  text-decoration: none;
+  outline: none;
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: white;
+  background: $secondary-color;
+}
+
+::selection {
+  color: white;
+  background: $secondary-color;
+}

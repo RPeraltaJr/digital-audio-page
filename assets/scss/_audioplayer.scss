@@ -1,0 +1,21 @@
+/* Override styles for Plyr plugin */
+
+.plyr--audio .plyr__controls {
+    background: none;
+    color: white;
+}
+
+.plyr--full-ui input[type=range] {
+    color: $gold;
+}
+
+.plyr__progress__buffer {
+    background: #999999;
+}
+
+.plyr--audio .plyr__control.plyr__tab-focus, 
+.plyr--audio .plyr__control:hover, 
+.plyr--audio .plyr__control[aria-expanded=true] {
+    background: none;
+    color: $gold;
+}

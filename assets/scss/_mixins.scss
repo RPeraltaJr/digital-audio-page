@@ -1,0 +1,77 @@
+// transition
+.transition-basic {
+  transition: all 0.4s ease;
+}
+
+// section
+.section {
+	&--container {
+		max-width: 1200px;
+		width: 100%;
+	}
+	&--padding {
+		padding: 10rem 4rem;
+		@media (max-width: 1200px) {
+			padding: 8rem 4rem;
+		}
+	}
+}
+
+// background image
+@mixin backImage($image, $opacity: 0, $xpos: 50%, $ypos: 50%) {
+  background-image: linear-gradient(rgba(0, 0, 0, $opacity), rgba(0, 0, 0, $opacity)), url($image);
+  background-repeat: no-repeat;
+  background-position: $xpos $ypos;
+  background-size: cover;
+}
+
+// form placeholder color
+@mixin placeholderColor($color) { // use within form class
+	::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	  color: $color;
+	}
+	::-moz-placeholder { /* Firefox 19+ */
+	  color: $color;
+	}
+	:-ms-input-placeholder { /* IE 10+ */
+	  color: $color;
+	}
+	:-moz-placeholder { /* Firefox 18- */
+	  color: $color;
+	}
+}
+
+// button color
+@mixin buttonColor($bg-color, $text-color) {
+  background: $bg-color;
+  border-color: $bg-color;
+  color: $text-color;
+  &:hover,
+  &:active,
+  &:focus,
+  &:target {
+    background: darken($bg-color, 10%);
+    border-color: darken($bg-color, 10%);
+    color: $text-color;
+  }
+}
+
+// button w/ icon
+@mixin buttonAndIcon($bg-color, $color, $icon) {
+  max-width: 210px;
+  width: 100%;
+  text-align: left;
+  background: $bg-color url($icon) no-repeat 95% 50%; /* For more icons visit https://www.iconfinder.com/search/?q=arrow+down&price=free */
+  background-size: 25px 25px;
+  padding: 12px 15px;
+  color: $color;
+  &:hover,
+  &:active,
+  &:focus,
+  &:target {
+    color: $color;
+    background: darken($bg-color, 10%) url($icon) no-repeat 95% 50%; /* For more icons visit https://www.iconfinder.com/search/?q=arrow+down&price=free */
+    background-size: 25px 25px;
+    border-color: darken($bg-color, 10%);
+  }
+}
