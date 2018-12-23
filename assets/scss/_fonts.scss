@@ -1,4 +1,6 @@
-$primary-font:    'Helvetica', 'Arial', sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+
+$primary-font:    'Open Sans', 'Helvetica', 'Arial', sans-serif;
 
 body, h1, h2, h3, h4, h5, h6 {
     font-family: $primary-font;

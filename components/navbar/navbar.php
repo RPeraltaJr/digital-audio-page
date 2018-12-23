@@ -2,7 +2,7 @@
     <div class="wrapper">
         <div class="item item--1">
             <div class="box">
-                <a href="#top" class="page-scroll">
+                <a href="https://www.oinkcreative.com/" class="page-scroll">
                     <img class="logo" src="assets/build/img/logos/OinkInk.svg" alt="OinkInk">
                 </a>
             </div>
