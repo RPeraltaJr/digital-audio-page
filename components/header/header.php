@@ -10,6 +10,7 @@
     <meta name="description" content="The future of radio is here. At Oink Ink, we’re leading the way with technology to personalize ads in real time. So your radio is not only hyper personalized, it’s hyper creative.">
 
     <title>Oink Ink Digital Audio</title>
+    <link rel="shortcut icon" href="https://www.oinkcreative.com/wp-content/themes/jupiter/assets/images/favicon.png"  />
 
     <!-- Scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
