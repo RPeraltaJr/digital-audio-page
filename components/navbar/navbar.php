@@ -10,7 +10,7 @@
         <div class="item item--2">
             <div class="box">
                 <ul class="nav-links list-inline">
-                    <li><a href="#dynamic-player" class="page-scroll">Dynamic Player</a></li>
+                    <li><a href="#dynamic" class="page-scroll">Dynamic</a></li>
                     <li><a href="#short-form" class="page-scroll">Short Form</a></li>
                     <li><a href="#sequential" class="page-scroll">Sequential</a></li>
                 </ul>

@@ -7,7 +7,7 @@ include 'components/navbar/navbar.php';
 include 'components/hero/hero.php';
 
 $heading = (object) array(
-    "id"    => "dynamic-player",
+    "id"    => "dynamic",
     "title" => "Dynamic"
 );
 include 'components/heading/heading.php';
