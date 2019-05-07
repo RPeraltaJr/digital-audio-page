@@ -32,7 +32,7 @@ section.navbar {
 		}
 		.item {
 			@extend .flex;
-			flex: 0 1 45%;
+			flex: 1;
 			&--1 {
 				@media (max-width: 991px) {
 					flex: 0 1 30%;

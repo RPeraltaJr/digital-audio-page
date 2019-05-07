@@ -27,5 +27,14 @@ $heading = (object) array(
 include 'components/heading/heading.php';
 include 'components/sequential/sequential.php';
 
+if( stripos($_SERVER['REQUEST_URI'], "?dev") !== false ):
+    $heading = (object) array(
+        "id"    => "banner-dev",
+        "title" => "Banner Development"
+    );
+    include 'components/heading/heading.php';
+    include 'components/banner-dev/banner-dev.php';
+endif;
+
 include 'components/footer-nav/footer-nav.php';
 include 'components/footer/footer.php';

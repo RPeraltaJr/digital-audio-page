@@ -36,8 +36,8 @@ var paths = {
                 "assets/js/libs/jquery.easing.min.js",
                 // "assets/js/libs/scrollreveal.min.js",
                 // "assets/js/libs/waypoints.min.js",
-                // "assets/js/libs/lity.min.js",
-                // "assets/js/libs/slick.min.js",
+                "assets/js/libs/lity.min.js",
+                "assets/js/libs/slick.min.js",
                 "assets/js/*.js" 
     ],
 		output			: 'assets/build/js/'

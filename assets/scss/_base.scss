@@ -27,3 +27,12 @@ a {
   color: white;
   background: $secondary-color;
 }
+
+// ** Lity CSS
+.lity-iframe-container iframe {
+  background: none !important;
+  box-shadow: none !important;
+}
+.lity-content:after {
+  box-shadow: none !important;
+}
