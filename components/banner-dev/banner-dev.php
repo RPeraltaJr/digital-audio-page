@@ -22,7 +22,7 @@
                         foreach($items as $item => $id): 
                     ?>
                         <a href="//vimeo.com/<?php echo $id; ?>" data-lity>
-                            <img src="assets/build/img/business-dev/<?php echo $item; ?>.png" alt="<?php echo $item; ?>">
+                            <div class="image" style="background-image: url('assets/build/img/business-dev/<?php echo $item; ?>.png')"></div>
                         </a>
                     <?php endforeach; ?>
                 </div>

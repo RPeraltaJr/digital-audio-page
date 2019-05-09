@@ -11,8 +11,8 @@ $('#banner-dev-carousel').slick({
     speed: 300,
     slidesToShow: 3,
     slidesToScroll: 1,
-    centerMode: true,
-    variableWidth: true,
+    // centerMode: true,
+    // variableWidth: true,
     prevArrow: $("[data-carousel-prev='bannerdev']"),
     nextArrow: $("[data-carousel-next='bannerdev']"),
     responsive: [
