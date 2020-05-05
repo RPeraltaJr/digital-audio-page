@@ -48,7 +48,7 @@
                         <div class="form-group">
                             <label for="station" class="sr-only">Pandora Stations</label>
                             <select class="form-control" name="station" id="station" v-model="searchStation"> <!-- :value="searchStation" -->
-                                <option value="" selected disabled>Pandora Stations</option>
+                                <option value="" selected disabled>Streaming Stations</option>
                                 <option v-for="station in stations" :value="station"> {{ station | capitalize }} </option>
                                 <!-- <option value="">Default</option> -->
                             </select>
