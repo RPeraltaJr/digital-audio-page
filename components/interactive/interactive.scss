@@ -1,0 +1,211 @@
+section.dynamic {
+    @extend .flex;
+    position: relative;
+    overflow: hidden;
+
+    .wrapper {
+        @extend .flex;
+        @extend .flex--wrap;
+        @extend .flex--center;
+        @extend .section--container;
+        @media (min-width: 768px) {
+            margin-bottom: 10rem;
+        }
+        @media (max-width: 767px) {
+            margin-bottom: 4rem;
+        }
+        .item {
+            @extend .flex;
+            flex: 0 1 50%; 
+            padding: 10rem 4rem;
+            min-height: 500px;
+            @media (max-width: 991px) {
+                flex: 0 1 100%;
+                min-height: auto;
+                padding: 4rem;
+            }
+            &--main {
+                flex: 0 1 100%;
+                min-height: auto;
+                text-align: center;
+                padding: 8rem 4rem;
+                @media (max-width: 767px) {
+                    padding: 6rem 4rem 4rem;
+                }
+            }
+            &--1 {
+                @media (min-width: 992px) {
+                    padding-right: 6rem;
+                }
+            }
+            &--2 {
+                border-left: solid 1px $border-color;
+                position: relative;
+                z-index: 2;
+                @media (min-width: 992px) {
+                    padding-left: 6rem;
+                }
+                .box {
+                    width: 100%;
+                }
+            }
+            .box {
+                width: 100%;
+            }
+        }
+    }
+
+    .main--title {
+        @extend .section--sub;
+        color: $grey;
+        font-weight: 300;
+        max-width: 850px;
+        margin: 0 auto;
+    }
+    .title {
+        @extend .section--title;
+        color: $primary-color;
+        & + * {
+            margin-top: 1rem;
+        }
+    }
+
+    .copy {
+        width: 100%;
+        max-width: 420px;
+        p {
+            @extend .section--copy;
+        }
+        & + * {
+            margin-top: 4rem;
+        }
+    }
+
+    .audio-player {
+        @extend .flex;
+        @extend .flex--wrap;
+        justify-content: space-between;
+        .logo {
+            @extend .flex;
+            flex: 1;
+            background: $green-light;
+            max-width: fit-content;
+            padding: 0 3rem;
+            height: 90px;
+            margin-right: 0.5rem;
+            @media (max-width: 767px) {
+                flex: 0 1 100%;
+                max-width: 100%;
+                margin: 0 auto 0.5rem;
+            }
+            img.lowes-logo {
+                width: 100%;
+                max-width: 100px;
+                height: 90px;
+            }
+            svg#LowesLogo {
+                @extend .flex--center;
+                * { fill: white; }
+                width: 100%;
+                max-width: 100px;
+            }
+        }
+        .player {
+            @extend .flex;
+            flex: 2;
+            background: $primary-color;
+            height: 90px;
+            padding: 0 1rem 0 0.5rem;
+            @media (max-width: 767px) {
+                flex: 0 1 100%;
+            }
+            .box {
+                @extend .flex--center;
+                max-width: fit-content;
+            }
+        }
+    }
+
+    select {
+        font-size: 1.4rem;
+        font-weight: 400;
+        height: 45px;
+        width: 100%;
+        color: #777;
+        padding-left: 1.5rem;
+        outline: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        background: white url('../img/icons/arrow-down.png') no-repeat 95% 50%;
+        background-size: 12px 12px;
+        &:focus,
+        &:hover,
+        &:target,
+        &:active {
+            border: solid 1px $secondary-color;
+        }
+        & + .btn {
+            margin-top: 1.5rem;
+        }
+    }
+
+    .btn {
+        max-width: 242.5px;
+        width: 100%;
+    }
+
+    .form {
+        @extend .flex;
+        @extend .flex--wrap;
+        justify-content: space-between;
+        .col {
+            flex: 0 1 48.5%;
+            @media (max-width: 1199px) and (min-width: 992px) {
+                flex: 0 1 100%;
+            }
+            @media (max-width: 767px) {
+                flex: 0 1 100%;
+            }
+            &--3 {
+                @media (min-width: 1200px) {
+                    margin-top: 1.5rem;
+                }
+            }
+        }
+        .form-group {
+            &:not(:last-child) {
+                @media (min-width: 1200px) {
+                    margin-bottom: 1.5rem;
+                }
+            }
+            @media (max-width: 1199px) {
+                margin-bottom: 1.5rem;
+            }
+        }
+    }
+
+    ul.moreinfo {
+        list-style: none;
+        margin: 3rem 0 0;
+        padding: 0;
+        border-top: solid 1px #b3b3b3;
+        li {
+            border-bottom: solid 1px #b3b3b3;
+            padding: 1.5rem 0;
+        }
+        p {
+            font-size: 1.4rem;
+            text-transform: capitalize;
+        }
+        strong {
+            color: $primary-color;
+            font-weight: bold;
+        }
+    }
+
+    .audio-player {
+        margin-top: 5rem;
+    }
+
+}
