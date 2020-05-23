@@ -1,108 +1,110 @@
-/* ---------------------------------------------------------------------------------------------
+/*
+* ------------------------------------------------------------------------------
+* Gulpfile.js
+* https://gulpjs.com/
+* ------------------------------------------------------------------------------
+*/
 
-    Gulp.js - http://gulpjs.com
-    Plugins - http://gulpjs.com/plugins
-    Documentation: http://github.com/gulpjs/gulp/blob/master/docs/README.md
-    1. If [package.json] with dependencies exist run: $ npm install
-    2. Start gulp: $ gulp
+const gulp = require('gulp');
+// const sourcemaps = require('gulp-sourcemaps');
+const uglify = require('gulp-uglify');
+const autoprefixer = require('gulp-autoprefixer');
+const cleanCSS = require('gulp-clean-css');
+const sass = require('gulp-sass');
+const rename = require('gulp-rename');
+const sassGlob = require('gulp-sass-glob');
+const browserify = require('browserify');
+const babelify = require('babelify');
+const source = require('vinyl-source-stream');
+const buffer = require('vinyl-buffer');
+const es = require('event-stream');
 
---------------------------------------------------------------------------------------------- */
-
-// Gulp with additional plugins
-var gulp          = require('gulp'),                      // npm install gulp --save-dev
-    uglify        = require('gulp-uglify-es').default,    // npm i gulp-uglify-es --save-dev
-    plumber       = require('gulp-plumber'),              // npm install gulp-plumber --save-dev
-    imagemin      = require('gulp-imagemin'),             // npm install gulp-imagemin --save-dev
-    cleanCSS      = require('gulp-clean-css'),            // npm install gulp-clean-css --save-dev
-    autoprefixer  = require('gulp-autoprefixer'),         // npm install gulp-autoprefixer --save-dev
-    rename        = require('gulp-rename'),               // npm install gulp-rename --save-dev
-    sass          = require('gulp-sass'),                 // npm install gulp-sass --save-dev
-    sourcemaps    = require('gulp-sourcemaps'),           // npm install gulp-sourcemaps --save-dev
-    sassGlob      = require('gulp-sass-glob'),            // npm install gulp-sass-glob --save-dev
-    concat        = require('gulp-concat');               // npm install gulp-concat --save-dev
-
-// Object
-var paths = {
-	styles : {
-		scssInput 	: 'assets/scss/*.scss',
-		modules 	  : 'components/**/*.scss',
-		cssInput	  : 'assets/build/css/main.css',
-		cssOutput	  : 'assets/build/css/'
-	},
-	scripts : {
-		input			  : [ // list scripts in specific order
-                // "assets/js/libs/jquery.min.js",
-                // "assets/js/libs/bootstrap.min.js",
-                "assets/js/libs/jquery.easing.min.js",
-                // "assets/js/libs/scrollreveal.min.js",
-                // "assets/js/libs/waypoints.min.js",
-                "assets/js/libs/lity.min.js",
-                "assets/js/libs/slick.min.js",
-                "assets/js/*.js" 
+const paths = {
+  styles: {
+    scssInput: 'assets/uncompiled/scss/*.scss',
+    modules: 'components/**/**/*.scss',
+    cssInput: 'assets/uncompiled/css/*.css',
+    cssDest: 'assets/uncompiled/css/',
+    cssDestMin: 'assets/build/css/',
+  },
+  scripts: {
+    inputs: [
+      './assets/uncompiled/js/page-main.js',
     ],
-		output			: 'assets/build/js/'
-	},
-  img : {
-    input       : 'assets/img/**', // images in this directory or subdirectories
-    output      : 'assets/build/img'
-  }
+    modules: 'assets/uncompiled/js/modules/*.js',
+    dest: 'assets/build/js/',
+  },
 };
 
-// Error Log Function (Alternative to Plumber)
-function errorLog(error) {
-  console.error.bind(error);
-  this.emit('end');
+const sassOptions = {
+  errLogToConsole: true,
+  outputStyle: 'expanded',
+};
+
+// * Compiles Sass and minifies CSS
+function styles() {
+  return gulp
+    .src(paths.styles.scssInput)
+    .pipe(sassGlob())
+    .pipe(sass(sassOptions)).on('error', sass.logError)
+    .pipe(autoprefixer({
+      grid: true,
+    }))
+    .pipe(gulp.dest(paths.styles.cssDest))
+    .pipe(cleanCSS())
+    .pipe(rename({
+      suffix: '.min',
+    }))
+    .pipe(gulp.dest(paths.styles.cssDestMin));
 }
+exports.styles = styles;
 
-// Compress Images
-gulp.task('image', function(){
-  gulp.src(paths.img.input)
-    .pipe(imagemin()) 
-    .pipe(gulp.dest(paths.img.output)); // 'assets/build/img'
-});
+// * Compresses Scripts
+async function scripts() {
+  const tasks = await paths.scripts.inputs.map((entry) => {
+    return (
+      browserify({
+        entries: [entry],
+        debug: true,
+      })
+      .transform(babelify, {
+        presets: ['@babel/preset-env'],
+      })
+      .bundle()
+      .pipe(source(entry))
+      .pipe(buffer())
+      // .pipe(sourcemaps.init())
+      .pipe(uglify())
+      // .pipe(sourcemaps.write('./'))
+      .pipe(rename({
+        dirname: '',
+        extname: '.min.js',
+      }))
+      .pipe(gulp.dest(paths.scripts.dest))
+    );
+  });
 
-// Convert SCSS to CSS
-gulp.task('sass', function (){
-	return gulp.src(paths.styles.scssInput) // 'assets/scss/*.scss'
-		.pipe(sassGlob())
-    .pipe(sourcemaps.init())
-  		.pipe(sass({
-  			errLogToConsole: true,
-  			outputStyle: 'expanded'
-  		})).on('error', sass.logError)
-		  .pipe(autoprefixer())
-    .pipe(sourcemaps.write())
-		.pipe(gulp.dest(paths.styles.cssOutput)); // 'assets/build/css'
-});
+  return es.merge.apply(null, tasks);
+}
+exports.scripts = scripts;
 
-// Compress CSS Styles
-gulp.task('styles', function(){
-  return gulp.src(paths.styles.cssInput) // 'assets/build/css/main.css'
-  .pipe(cleanCSS({compatibility: 'ie8'}))
-  .pipe(rename({suffix: '.min'}))
-  .pipe(gulp.dest(paths.styles.cssOutput)); // 'assets/build/css/'
-}); 
+// * Watch Task
+function watch() {
+  gulp.watch(paths.styles.scssInput, styles).on('all', (event, path, stats) => {
+    console.log(`File ${path} was ${event}, running tasks...`);
+  });
+  gulp.watch(paths.styles.modules, styles).on('all', (event, path, stats) => {
+    console.log(`File ${path} was ${event}, running tasks...`);
+  });
+  gulp.watch(paths.scripts.inputs, scripts).on('all', (event, path, stats) => {
+    console.log(`File ${path} was ${event}, running tasks...`);
+  });
+  gulp.watch(paths.scripts.modules, scripts).on('all', (event, path, stats) => {
+    console.log(`File ${path} was ${event}, running tasks...`);
+  });
+}
+exports.watch = watch;
 
-// Compresses Scripts
-gulp.task('scripts', function(){
-  gulp.src(paths.scripts.input) // 'assets/js/*.js' paths.scripts.input
-    .pipe(plumber()) 
-    .pipe(concat('main.js'))
-    .pipe(gulp.dest(paths.scripts.output))
-    .pipe(rename('main.min.js'))
-    .pipe(uglify()) // Compress
-    // .on('error', errorLog) Alternative to Plumber
-    .pipe(gulp.dest(paths.scripts.output)); // 'assets/build/js'
-});
+const build = gulp.parallel(styles, scripts, watch);
 
-// Watch for any updates
-gulp.task('watch', function() {
-  gulp.watch('assets/img/**', ['image']);
-  gulp.watch(paths.styles.scssInput, ['sass']);       // 'assets/scss/*.scss'
-  gulp.watch(paths.styles.modules, ['sass']);         // 'components/**/*.scss'
-  gulp.watch(paths.styles.cssInput, ['styles']);  // 'assets/build/css/main.css'
-  gulp.watch(paths.scripts.input, ['scripts']);       // 'assets/js/*.js'
-});
-
-// Run Gulp tasks
-gulp.task('default', ['image', 'scripts', 'styles', 'sass', 'watch']);
+gulp.task('default', build);

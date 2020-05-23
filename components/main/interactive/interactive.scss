@@ -1,4 +1,4 @@
-section.dynamic {
+section.interactive {
     @extend .flex;
     position: relative;
     overflow: hidden;
@@ -90,24 +90,24 @@ section.dynamic {
             flex: 1;
             background: $green-light;
             max-width: fit-content;
-            padding: 0 3rem;
+            padding: 0 2rem;
             height: 90px;
+            max-width: 160px;
             margin-right: 0.5rem;
             @media (max-width: 767px) {
                 flex: 0 1 100%;
                 max-width: 100%;
                 margin: 0 auto 0.5rem;
             }
-            img.lowes-logo {
+            img {
                 width: 100%;
-                max-width: 100px;
-                height: 90px;
-            }
-            svg#LowesLogo {
-                @extend .flex--center;
-                * { fill: white; }
-                width: 100%;
-                max-width: 100px;
+                margin: auto;
+                &.jeopardy-logo {
+                    max-width: 100px;
+                }
+                &.liberty-mutual-logo {
+                    max-width: 130px;
+                }
             }
         }
         .player {

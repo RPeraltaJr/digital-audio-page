@@ -1,4 +1,4 @@
-// Dynamic
+// * Dynamic
 const app_player = new Plyr('#app_player', {
     controls: ['play', 'mute', 'progress', 'current-time', 'volume'],
     settings: []
@@ -6,9 +6,19 @@ const app_player = new Plyr('#app_player', {
 const lowes_player = new Plyr('#lowes_player', {
     controls: ['play', 'mute', 'progress', 'current-time', 'volume'],
     settings: [] 
-});    
+});   
 
-// Short Form
+// * Interactive
+const jeopardy_player = new Plyr('#jeopardy_player', {
+    controls: ['play', 'mute', 'progress', 'current-time', 'volume'],
+    settings: []
+});
+const libertyMutual_player = new Plyr('#libertyMutual_player', {
+    controls: ['play', 'mute', 'progress', 'current-time', 'volume'],
+    settings: [] 
+});  
+
+// * Short Form
 const sf_player_1 = new Plyr('#shortForm1', {
     controls: ['play', 'mute', 'progress', 'current-time', 'volume'],
     settings: []

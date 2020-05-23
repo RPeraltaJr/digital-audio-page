@@ -18,23 +18,23 @@
                 </div> 
 
                 <div class="form">
-                    <label for="conditions" class="sr-only">Atmospheric Conditions</label>
-                    <select class="form-control" :id="getUniqueConditions" name="conditions" v-model="searchCondition">
-                        <option value="" disabled selected>Atmospheric Conditions</option>
-                        <option v-for="condition in conditions" :value="condition"> {{ condition | capitalize }} </option>
+                    <label for="response" class="sr-only">Response</label>
+                    <select class="form-control" :id="getUniqueResponses" name="response" v-model="searchResponse">
+                        <option value="" disabled selected>Response</option>
+                        <option v-for="response in responses" :value="response"> {{ response | capitalize }} </option>
                     </select> 
-                    <button class="btn btn-default" @click="submit" :disabled="!searchCondition" v-if="searchCondition">Submit</button>
+                    <button class="btn btn-default" @click="submit" :disabled="!searchResponse" v-if="searchResponse">Submit</button>
                 </div>
 
                 <div class="audio-player">
                     <div class="logo">
-                        <img class="lowes-logo" src="assets/build/img/logos/Jeopardy.png" alt="Jeopardy">
+                        <img class="jeopardy-logo" src="assets/build/img/logos/Jeopardy.png" alt="Jeopardy">
                     </div>
                     <div class="player">
                         <div class="box" v-show="showResult">
                             
-                            <audio id="lowes_player" controls ref="lowesPlayer">
-                                <source :src="'assets/build/audio/lowes/' + track" type="audio/mpeg" v-if="track">
+                            <audio id="jeopardy_player" controls ref="jeopardyPlayer">
+                                <source :src="'assets/build/audio/jeopardy/' + track" type="audio/mpeg" v-if="track">
                                 Your browser does not support the audio element.
                             </audio>
 
@@ -45,7 +45,7 @@
         </div>
 
         <!-- Liberty Mutual -->
-        <div class="item item--2" id="libertyMutalApp">
+        <div class="item item--2" id="libertyMutualApp">
             <div class="box">
                 <h4 class="title">Liberty Mutal</h4>
                 <div class="copy">
@@ -53,23 +53,23 @@
                 </div> 
 
                 <div class="form">
-                    <label for="conditions" class="sr-only">Atmospheric Conditions</label>
-                    <select class="form-control" :id="getUniqueConditions" name="conditions" v-model="searchCondition">
-                        <option value="" disabled selected>Atmospheric Conditions</option>
-                        <option v-for="condition in conditions" :value="condition"> {{ condition | capitalize }} </option>
+                    <label for="response" class="sr-only">Response</label>
+                    <select class="form-control" :id="getUniqueResponses" name="response" v-model="searchResponse">
+                        <option value="" disabled selected>Response</option>
+                        <option v-for="response in responses" :value="response"> {{ response | capitalize }} </option>
                     </select> 
-                    <button class="btn btn-default" @click="submit" :disabled="!searchCondition" v-if="searchCondition">Submit</button>
+                    <button class="btn btn-default" @click="submit" :disabled="!searchResponse" v-if="searchResponse">Submit</button>
                 </div>
 
                 <div class="audio-player">
                     <div class="logo">
-                        <img class="lowes-logo" src="assets/build/img/logos/Lowes.svg" alt="Lowe's">
+                        <img class="liberty-mutual-logo" src="assets/build/img/logos/Liberty-Mutual.jpg" alt="Liberty Mutual">
                     </div>
                     <div class="player">
                         <div class="box" v-show="showResult">
                             
-                            <audio id="lowes_player" controls ref="lowesPlayer">
-                                <source :src="'assets/build/audio/lowes/' + track" type="audio/mpeg" v-if="track">
+                            <audio id="libertyMutual_player" controls ref="libertyMutualPlayer">
+                                <source :src="'assets/build/audio/liberty-mutual/' + track" type="audio/mpeg" v-if="track">
                                 Your browser does not support the audio element.
                             </audio>
 

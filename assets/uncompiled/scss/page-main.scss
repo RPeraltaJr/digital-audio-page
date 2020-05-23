@@ -1,3 +1,4 @@
+// * core components
 @import 'mixins',
         'colors',
         'fonts',
@@ -11,5 +12,10 @@
         'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css',
         'https://cdn.plyr.io/3.4.7/plyr.css',
         'audioplayer';
-        
-@import '../../components/**/*.scss';
+
+
+// * global components
+@import '../../../components/global/**/*.scss';
+
+// * include all components
+@import '../../../components/main/**/*.scss';

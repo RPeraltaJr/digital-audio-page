@@ -7,23 +7,19 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta http-equiv="Cache-control" content="public">
     <meta name="author" content="Rafael Peralta Jr.">
-    <meta name="description" content="The future of radio is here. At Oink Ink, we’re leading the way with technology to personalize ads in real time. So your radio is not only hyper personalized, it’s hyper creative.">
+    <meta name="description" content="<?php if(isset($page->meta) && !empty($page->meta['desc'])): echo $page->meta['desc']; else: echo ""; endif; ?>">
 
-    <title>Oink Ink Digital Audio</title>
+    <title><?php if(isset($page->meta) && !empty($page->meta['title'])): echo "{$page->meta['title']} - "; endif; ?>Oink Ink, Radio Commercial Creative and Production, New York and Philadelphia</title>
     <link rel="shortcut icon" href="https://www.oinkcreative.com/wp-content/themes/jupiter/assets/images/favicon.png"  />
-
-    <!-- Scripts -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://unpkg.com/vue@2.5.2/dist/vue.min.js"></script>
     
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="assets/build/css/main.min.css?version=<?php echo $version; ?>">
+    <link rel="stylesheet" href="assets/build/css/<?php echo $page->type; ?>.min.css?ver=<?php echo $version; ?>">
     
     <!--[if lte IE 8]>
-      <meta http-equiv="refresh" content="0" url="http://browsehappy.com/" />
+      <meta http-equiv="refresh" content="0" url="https://browsehappy.com/?locale=en" />
       <script type="text/javascript">
       /* <![CDATA[ */
-      window.top.location = 'http://browsehappy.com/';
+      window.top.location = 'https://browsehappy.com/?locale=en';
       /* ]]> */
       </script>
     <![endif]-->

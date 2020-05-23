@@ -11,6 +11,7 @@
             <div class="box">
                 <ul class="nav-links list-inline">
                     <li><a href="#dynamic" class="page-scroll">Dynamic</a></li>
+                    <li><a href="#interactive" class="page-scroll">Interactive</a></li>
                     <li><a href="#short-form" class="page-scroll">Short Form</a></li>
                     <li><a href="#sequential" class="page-scroll">Sequential</a></li>
                     <?php if( stripos($_SERVER['REQUEST_URI'], "?dev") !== false ): ?>

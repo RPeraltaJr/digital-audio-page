@@ -1,0 +1,10 @@
+[
+    {
+        "response": "Choice A",
+        "track": "LM_Choice_A_Pigeon.mp3"
+    },
+    {
+        "response": "Choice B",
+        "track": "LM_Choice_B_Cart.mp3"
+    }
+]
