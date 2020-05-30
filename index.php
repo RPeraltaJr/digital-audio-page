@@ -56,12 +56,12 @@ include 'components/main/heading/heading.php';
 include 'components/main/sequential/sequential.php';
 
 
-$heading = (object) [
-    "id"    => "banner-dev",
-    "title" => "Banner Development"
-];
-include 'components/main/heading/heading.php';
-include 'components/main/banner-dev/banner-dev.php';
+// $heading = (object) [
+//     "id"    => "banner-dev",
+//     "title" => "Banner Development"
+// ];
+// include 'components/main/heading/heading.php';
+// include 'components/main/banner-dev/banner-dev.php';
 
 
 include 'components/global/footer-nav/footer-nav.php';

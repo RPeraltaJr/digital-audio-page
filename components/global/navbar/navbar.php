@@ -14,9 +14,6 @@
                     <li><a href="#interactive" class="page-scroll">Interactive</a></li>
                     <li><a href="#short-form" class="page-scroll">Short Form</a></li>
                     <li><a href="#sequential" class="page-scroll">Sequential</a></li>
-                    <?php if( stripos($_SERVER['REQUEST_URI'], "?dev") !== false ): ?>
-                    <li><a href="#banner-dev" class="page-scroll">Banner Development</a></li>
-                    <?php endif; ?>
                 </ul>
             </div>
         </div>
