@@ -37,7 +37,7 @@
         "device": "desktop",
         "station": "top 40", 
         "type": "changed your wiper blades",
-        "track": "FridayRainDesktopTophitsWipers.mp3"
+        "track": "FridayRainyDesktopTophitsWipers.mp3"
     },
     {
         "day": "friday",
@@ -101,7 +101,7 @@
         "device": "desktop",
         "station": "top 40", 
         "type": "changed your wiper blades",
-        "track": "MondayRainDesktopTophitsWipers.mp3"
+        "track": "MondayRainyDesktopTophitsWipers.mp3"
     },
     {
         "day": "monday",
@@ -165,7 +165,7 @@
         "device": "desktop",
         "station": "top 40", 
         "type": "changed your wiper blades",
-        "track": "WednesdayRainDesktopTophitsWipers.mp3"
+        "track": "WednesdayRainyDesktopTophitsWipers.mp3"
     },
     {
         "day": "wednesday",
