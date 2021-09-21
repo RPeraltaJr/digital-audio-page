@@ -1,0 +1,6 @@
+body {
+    margin-top: 10rem;
+    @media (max-width: 767px) {
+        margin-top: 0;
+    }
+}

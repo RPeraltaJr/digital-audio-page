@@ -1,0 +1,98 @@
+.banner-dev {
+    @extend .flex;
+    position: relative;
+    overflow: hidden;
+
+    .wrapper {
+        @extend .flex;
+        @extend .flex--wrap;
+        @extend .flex--center;
+        @extend .section--padding;
+        @extend .section--container;
+        @media (max-width: 767px) {
+            padding-top: 6rem;
+            padding-bottom: 6rem;
+        }
+        .item {
+            @extend .flex;
+            flex: 0 1 100%;
+            text-align: center;
+            position: relative;
+            align-items: center;
+            flex-wrap: wrap;
+            .box {
+                @extend .flex--center;
+                width: 100%;
+                max-width: 960px;
+            }
+            &--carousel {
+                .box {
+                    max-width: 800px;
+                    @media (max-width: 991px) {
+                        max-width: 60vw;
+                    }
+                }
+            }
+        }
+    }
+
+    .main--title {
+        @extend .section--sub;
+        color: $grey;
+        font-weight: 300;
+        & + * {
+            margin-top: 6rem;
+            @media (max-width: 767px) {
+                margin-top: 3rem;
+            }
+        }
+    }
+
+    &__carousel {
+        margin-top: 6rem;
+        position: relative;
+        z-index: 2;
+        a {
+            @media (min-width: 768px) {
+                margin-right: 1rem;
+            }
+        }
+        .image {
+            height: 300px;
+            width: 100%;
+            // background: lightgrey;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: contain;
+        }
+        &__control {
+            // position: absolute;
+            margin-top: -30rem;
+            width: 100%;
+            ul {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                display: inline-flex;
+                width: 100%;
+                justify-content: space-between;
+                img {
+                    transition: all 0.4s ease;
+                    width: 100%;
+                    max-width: 100px;
+                    cursor: pointer;
+                    @media (max-width: 767px) {
+                        max-width: 50px;
+                    }
+                    &:hover,
+                    &:focus,
+                    &:active,
+                    &:target {
+                        opacity: 0.7;
+                    }
+                }
+            }
+        }
+    }
+
+}

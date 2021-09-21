@@ -1,111 +1,78 @@
-$module: '.Interactive';
-#{$module} {
+section.dynamic {
     @extend .flex;
     position: relative;
     overflow: hidden;
 
-    &__container {
+    .wrapper {
         @extend .flex;
         @extend .flex--wrap;
         @extend .flex--center;
-        // @extend .section--container;
-        padding-left: 3rem;
-        padding-right: 3rem;
-        justify-content: center;
+        @extend .section--container;
         @media (min-width: 768px) {
             margin-bottom: 10rem;
         }
         @media (max-width: 767px) {
             margin-bottom: 4rem;
         }
-    }
-
-    &__col {
-        @extend .flex;
-        flex: 0 1 30%; 
-        padding: 6rem 2rem;
-        min-height: 500px;
-        position: relative;
-        @media (max-width: 1199px) {
-            flex: 0 1 49%;
-            min-height: auto;
-            padding: 4rem;
-            &:nth-child(n+4) {
-                &:before {
-                    background-color: $border-color;
+        .item {
+            @extend .flex;
+            flex: 0 1 50%; 
+            padding: 10rem 4rem;
+            min-height: 500px;
+            @media (max-width: 991px) {
+                flex: 0 1 100%;
+                min-height: auto;
+                padding: 4rem;
+            }
+            &--main {
+                flex: 0 1 100%;
+                min-height: auto;
+                text-align: center;
+                padding: 8rem 4rem;
+                @media (max-width: 767px) {
+                    padding: 6rem 4rem 4rem;
                 }
             }
-        }
-        @media (max-width: 991px) {
-            flex: 0 1 100%;
-            padding: 4rem 1rem;
-            &:nth-child(n+3) {
-                &:before {
-                    background-color: $border-color;
+            &--1 {
+                @media (min-width: 992px) {
+                    padding-right: 6rem;
                 }
             }
-            &:last-child {
-                display: none;
-            }
-        }
-        &--main {
-            flex: 0 1 100%;
-            min-height: auto;
-            text-align: center;
-            padding: 8rem 4rem;
-            @media (max-width: 767px) {
-                padding: 6rem 0 4rem;
-            }
-        }
-        &:not(#{$module}__col--main) {
-            &:before {
-                content: '';
-                position: absolute;
-                top: 0;
-                left: 2rem;
-                height: 1px;
-                width: 200px;
-                @media (max-width: 1199px) {
-                    left: 4rem;
-                    width: 150px;
+            &--2 {
+                border-left: solid 1px $border-color;
+                position: relative;
+                z-index: 2;
+                @media (min-width: 992px) {
+                    padding-left: 6rem;
                 }
-                @media (max-width: 991px) {
-                    left: 1rem;
-                    width: 100px;
+                .box {
+                    width: 100%;
                 }
             }
-        }
-        &:nth-child(5),
-        &:nth-child(6) {
-            &:before {
-                background-color: $border-color;
+            .box {
+                width: 100%;
             }
-        }
-        .box {
-            width: 100%;
         }
     }
 
-    &__headline {
+    .main--title {
         @extend .section--sub;
         color: $grey;
         font-weight: 300;
         max-width: 850px;
         margin: 0 auto;
     }
-    &__title {
+    .title {
         @extend .section--title;
         color: $primary-color;
         & + * {
             margin-top: 1rem;
         }
     }
-    &__copy {
+
+    .copy {
         width: 100%;
         max-width: 420px;
-        @media (min-width: 1200px) {
-            min-height: 72px;
-        }
         p {
             @extend .section--copy;
         }
@@ -114,36 +81,36 @@ $module: '.Interactive';
         }
     }
 
-    &__player {
+    .audio-player {
         @extend .flex;
         @extend .flex--wrap;
         justify-content: space-between;
-        &__logo {
+        .logo {
             @extend .flex;
             flex: 1;
             background: $green-light;
             max-width: fit-content;
-            padding: 0 2rem;
+            padding: 0 3rem;
             height: 90px;
-            max-width: 160px;
             margin-right: 0.5rem;
             @media (max-width: 767px) {
                 flex: 0 1 100%;
                 max-width: 100%;
                 margin: 0 auto 0.5rem;
             }
-            img {
+            img.lowes-logo {
                 width: 100%;
-                margin: auto;
-                &.jeopardy-logo {
-                    max-width: 100px;
-                }
-                &.liberty-mutual-logo {
-                    max-width: 130px;
-                }
+                max-width: 100px;
+                height: 90px;
+            }
+            svg#LowesLogo {
+                @extend .flex--center;
+                * { fill: white; }
+                width: 100%;
+                max-width: 100px;
             }
         }
-        &__audio {
+        .player {
             @extend .flex;
             flex: 2;
             background: $primary-color;
@@ -188,7 +155,7 @@ $module: '.Interactive';
         width: 100%;
     }
 
-    &__form {
+    .form {
         @extend .flex;
         @extend .flex--wrap;
         justify-content: space-between;
@@ -237,7 +204,7 @@ $module: '.Interactive';
         }
     }
 
-    &__player {
+    .audio-player {
         margin-top: 5rem;
     }
 

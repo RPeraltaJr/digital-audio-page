@@ -1,0 +1,46 @@
+section.sequential {
+    @extend .flex;
+    position: relative;
+    overflow: hidden;
+
+    .wrapper {
+        @extend .flex;
+        @extend .flex--wrap;
+        @extend .flex--center;
+        @extend .section--padding;
+        @extend .section--container;
+        @media (max-width: 767px) {
+            padding-top: 6rem;
+            padding-bottom: 6rem;
+        }
+        .item {
+            @extend .flex;
+            flex: 0 1 100%;
+            text-align: center;
+            .box {
+                @extend .flex--center;
+                width: 100%;
+                max-width: 820px;
+            }
+        }
+    }
+
+    .main--title {
+        @extend .section--sub;
+        color: $grey;
+        font-weight: 300;
+        & + * {
+            margin-top: 6rem;
+            @media (max-width: 767px) {
+                margin-top: 3rem;
+            }
+        }
+    }
+
+    .main--sub {
+        @extend .section--sub;
+        color: $green;
+        font-weight: 600;
+    }
+
+}

@@ -9,6 +9,18 @@ const lowes_player = new Plyr('#lowes_player', {
 });   
 
 // * Interactive
+const tide_player = new Plyr('#tide_player', {
+    controls: ['play', 'mute', 'progress', 'current-time', 'volume'],
+    settings: []
+});
+const pampers_player = new Plyr('#pampers_player', {
+    controls: ['play', 'mute', 'progress', 'current-time', 'volume'],
+    settings: []
+});
+const pepsi_player = new Plyr('#pepsi_player', {
+    controls: ['play', 'mute', 'progress', 'current-time', 'volume'],
+    settings: []
+});
 const jeopardy_player = new Plyr('#jeopardy_player', {
     controls: ['play', 'mute', 'progress', 'current-time', 'volume'],
     settings: []

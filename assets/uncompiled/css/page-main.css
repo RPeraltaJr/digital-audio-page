@@ -6,7 +6,7 @@
   transition: all 0.4s ease;
 }
 
-.section--container, footer.footer-nav .wrapper, section.navbar .wrapper, section.app--aap .wrapper, section.app--lowes .wrapper, .banner-dev .wrapper, section.dynamic .wrapper, section.heading .wrapper, header.hero .wrapper, section.interactive .wrapper, section.sequential .wrapper {
+.section--container, footer.footer-nav .wrapper, section.navbar .wrapper, section.app--aap .wrapper, section.app--lowes .wrapper, .banner-dev .wrapper, section.dynamic .wrapper, section.heading .wrapper, header.hero .wrapper, section.sequential .wrapper {
   max-width: 1200px;
   width: 100%;
 }
@@ -30,7 +30,7 @@ p, small {
   font-weight: 300;
 }
 
-.section--title, section.app--aap .title, section.app--lowes .title, section.dynamic .title, section.heading .title, section.interactive .title {
+.section--title, section.app--aap .title, section.app--lowes .title, section.dynamic .title, section.heading .title, .Interactive__title {
   font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
   font-size: 30px;
   line-height: 40px;
@@ -38,30 +38,30 @@ p, small {
 }
 
 @media (max-width: 767px) {
-  .section--title, section.app--aap .title, section.app--lowes .title, section.dynamic .title, section.heading .title, section.interactive .title {
+  .section--title, section.app--aap .title, section.app--lowes .title, section.dynamic .title, section.heading .title, .Interactive__title {
     font-size: 2.5rem;
   }
 }
 
-.section--sub, .banner-dev .main--title, section.dynamic .main--title, header.hero .sub, section.interactive .main--title, section.sequential .main--title, section.sequential .main--sub, section.short-form .main--title {
+.section--sub, .banner-dev .main--title, section.dynamic .main--title, header.hero .sub, .Interactive__headline, section.sequential .main--title, section.sequential .main--sub, section.short-form .main--title {
   font-size: 2.25rem;
   font-weight: 400;
   line-height: 1.3;
 }
 
 @media (max-width: 767px) {
-  .section--sub, .banner-dev .main--title, section.dynamic .main--title, header.hero .sub, section.interactive .main--title, section.sequential .main--title, section.sequential .main--sub, section.short-form .main--title {
+  .section--sub, .banner-dev .main--title, section.dynamic .main--title, header.hero .sub, .Interactive__headline, section.sequential .main--title, section.sequential .main--sub, section.short-form .main--title {
     font-size: 2rem;
   }
 }
 
 @media (max-width: 599px) {
-  .section--sub, .banner-dev .main--title, section.dynamic .main--title, header.hero .sub, section.interactive .main--title, section.sequential .main--title, section.sequential .main--sub, section.short-form .main--title {
+  .section--sub, .banner-dev .main--title, section.dynamic .main--title, header.hero .sub, .Interactive__headline, section.sequential .main--title, section.sequential .main--sub, section.short-form .main--title {
     font-size: 1.8rem;
   }
 }
 
-.section--copy, section.app--aap .copy p, section.app--lowes .copy p, section.dynamic .copy p, section.interactive .copy p {
+.section--copy, section.app--aap .copy p, section.app--lowes .copy p, section.dynamic .copy p, .Interactive__copy p {
   font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
   font-size: 18px;
   line-height: 24px;
@@ -69,7 +69,7 @@ p, small {
 }
 
 @media (max-width: 767px) {
-  .section--copy, section.app--aap .copy p, section.app--lowes .copy p, section.dynamic .copy p, section.interactive .copy p {
+  .section--copy, section.app--aap .copy p, section.app--lowes .copy p, section.dynamic .copy p, .Interactive__copy p {
     font-size: 16px;
     line-height: 1.4;
   }
@@ -266,11 +266,11 @@ a {
   display: block;
 }
 
-.flex, footer.footer-nav, footer.footer-nav .wrapper, footer.footer-nav .wrapper .item, section.navbar, section.navbar .wrapper, section.navbar .wrapper .item, section.app--aap, section.app--aap .wrapper, section.app--aap .wrapper .item, section.app--aap .audio-player, section.app--aap .audio-player .logo, section.app--aap .audio-player .player, section.app--aap .form, section.app--lowes, section.app--lowes .wrapper, section.app--lowes .wrapper .item, section.app--lowes .audio-player, section.app--lowes .audio-player .logo, section.app--lowes .audio-player .player, .banner-dev, .banner-dev .wrapper, .banner-dev .wrapper .item, section.dynamic, section.dynamic .wrapper, section.dynamic .wrapper .item, section.dynamic .audio-player, section.dynamic .audio-player .logo, section.dynamic .audio-player .player, section.dynamic .form, section.heading, section.heading .wrapper, section.heading .wrapper .item, header.hero, header.hero .wrapper, header.hero .wrapper .item, section.interactive, section.interactive .wrapper, section.interactive .wrapper .item, section.interactive .audio-player, section.interactive .audio-player .logo, section.interactive .audio-player .player, section.interactive .form, section.sequential, section.sequential .wrapper, section.sequential .wrapper .item, section.short-form, section.short-form .wrapper, section.short-form .wrapper .item, section.short-form .audio-player, section.short-form .audio-player .logo, section.short-form .audio-player .player {
+.flex, footer.footer-nav, footer.footer-nav .wrapper, footer.footer-nav .wrapper .item, section.navbar, section.navbar .wrapper, section.navbar .wrapper .item, section.app--aap, section.app--aap .wrapper, section.app--aap .wrapper .item, section.app--aap .audio-player, section.app--aap .audio-player .logo, section.app--aap .audio-player .player, section.app--aap .form, section.app--lowes, section.app--lowes .wrapper, section.app--lowes .wrapper .item, section.app--lowes .audio-player, section.app--lowes .audio-player .logo, section.app--lowes .audio-player .player, .banner-dev, .banner-dev .wrapper, .banner-dev .wrapper .item, section.dynamic, section.dynamic .wrapper, section.dynamic .wrapper .item, section.dynamic .audio-player, section.dynamic .audio-player .logo, section.dynamic .audio-player .player, section.dynamic .form, section.heading, section.heading .wrapper, section.heading .wrapper .item, header.hero, header.hero .wrapper, header.hero .wrapper .item, .Interactive, .Interactive__container, .Interactive__col, .Interactive__player, .Interactive__player__logo, .Interactive__player__audio, .Interactive__form, section.sequential, section.sequential .wrapper, section.sequential .wrapper .item, section.short-form, section.short-form .wrapper, section.short-form .wrapper .item, section.short-form .audio-player, section.short-form .audio-player .logo, section.short-form .audio-player .player {
   display: flex;
 }
 
-.flex--wrap, footer.footer-nav .wrapper, section.app--aap .wrapper, section.app--aap .audio-player, section.app--aap .form, section.app--lowes .wrapper, section.app--lowes .audio-player, .banner-dev .wrapper, section.dynamic .wrapper, section.dynamic .audio-player, section.dynamic .form, section.heading .wrapper, header.hero .wrapper, section.interactive .wrapper, section.interactive .audio-player, section.interactive .form, section.sequential .wrapper, section.short-form .wrapper, section.short-form .audio-player {
+.flex--wrap, footer.footer-nav .wrapper, section.app--aap .wrapper, section.app--aap .audio-player, section.app--aap .form, section.app--lowes .wrapper, section.app--lowes .audio-player, .banner-dev .wrapper, section.dynamic .wrapper, section.dynamic .audio-player, section.dynamic .form, section.heading .wrapper, header.hero .wrapper, .Interactive__container, .Interactive__player, .Interactive__form, section.sequential .wrapper, section.short-form .wrapper, section.short-form .audio-player {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
@@ -282,7 +282,7 @@ a {
   width: 100%;
 }
 
-.flex--center, footer.footer-nav .wrapper, footer.footer-nav .wrapper .item .box, section.navbar .wrapper, section.navbar .wrapper .item--2 .box, section.navbar ul.nav-links, section.app--aap .wrapper, section.app--aap .audio-player .logo svg#LowesLogo, section.app--aap .audio-player .player .box, section.app--lowes .wrapper, section.app--lowes .audio-player .logo svg#LowesLogo, section.app--lowes .audio-player .player .box, .banner-dev .wrapper, .banner-dev .wrapper .item .box, section.dynamic .wrapper, section.dynamic .audio-player .logo svg#LowesLogo, section.dynamic .audio-player .player .box, section.heading .wrapper, section.heading .wrapper .item .box, header.hero .wrapper, header.hero .wrapper .item .box, section.interactive .wrapper, section.interactive .audio-player .player .box, section.sequential .wrapper, section.sequential .wrapper .item .box, section.short-form .wrapper, section.short-form .audio-player .player .box, section.short-form img {
+.flex--center, footer.footer-nav .wrapper, footer.footer-nav .wrapper .item .box, section.navbar .wrapper, section.navbar .wrapper .item--2 .box, section.navbar ul.nav-links, section.app--aap .wrapper, section.app--aap .audio-player .logo svg#LowesLogo, section.app--aap .audio-player .player .box, section.app--lowes .wrapper, section.app--lowes .audio-player .logo svg#LowesLogo, section.app--lowes .audio-player .player .box, .banner-dev .wrapper, .banner-dev .wrapper .item .box, section.dynamic .wrapper, section.dynamic .audio-player .logo svg#LowesLogo, section.dynamic .audio-player .player .box, section.heading .wrapper, section.heading .wrapper .item .box, header.hero .wrapper, header.hero .wrapper .item .box, .Interactive__container, .Interactive__player__audio .box, section.sequential .wrapper, section.sequential .wrapper .item .box, section.short-form .wrapper, section.short-form .audio-player .player .box, section.short-form img {
   margin: auto;
 }
 
@@ -1502,38 +1502,61 @@ header.hero .title + * {
   }
 }
 
-section.interactive {
+.Interactive {
   position: relative;
   overflow: hidden;
 }
 
+.Interactive__container {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  justify-content: center;
+}
+
 @media (min-width: 768px) {
-  section.interactive .wrapper {
+  .Interactive__container {
     margin-bottom: 10rem;
   }
 }
 
 @media (max-width: 767px) {
-  section.interactive .wrapper {
+  .Interactive__container {
     margin-bottom: 4rem;
   }
 }
 
-section.interactive .wrapper .item {
-  flex: 0 1 50%;
-  padding: 10rem 4rem;
+.Interactive__col {
+  flex: 0 1 30%;
+  padding: 6rem 2rem;
   min-height: 500px;
+  position: relative;
 }
 
-@media (max-width: 991px) {
-  section.interactive .wrapper .item {
-    flex: 0 1 100%;
+@media (max-width: 1199px) {
+  .Interactive__col {
+    flex: 0 1 49%;
     min-height: auto;
     padding: 4rem;
   }
+  .Interactive__col:nth-child(n+4):before {
+    background-color: #b3b3b3;
+  }
 }
 
-section.interactive .wrapper .item--main {
+@media (max-width: 991px) {
+  .Interactive__col {
+    flex: 0 1 100%;
+    padding: 4rem 1rem;
+  }
+  .Interactive__col:nth-child(n+3):before {
+    background-color: #b3b3b3;
+  }
+  .Interactive__col:last-child {
+    display: none;
+  }
+}
+
+.Interactive__col--main {
   flex: 0 1 100%;
   min-height: auto;
   text-align: center;
@@ -1541,66 +1564,77 @@ section.interactive .wrapper .item--main {
 }
 
 @media (max-width: 767px) {
-  section.interactive .wrapper .item--main {
-    padding: 6rem 4rem 4rem;
+  .Interactive__col--main {
+    padding: 6rem 0 4rem;
   }
 }
 
-@media (min-width: 992px) {
-  section.interactive .wrapper .item--1 {
-    padding-right: 6rem;
+.Interactive__col:not(.Interactive__col--main):before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 2rem;
+  height: 1px;
+  width: 200px;
+}
+
+@media (max-width: 1199px) {
+  .Interactive__col:not(.Interactive__col--main):before {
+    left: 4rem;
+    width: 150px;
   }
 }
 
-section.interactive .wrapper .item--2 {
-  border-left: solid 1px #b3b3b3;
-  position: relative;
-  z-index: 2;
-}
-
-@media (min-width: 992px) {
-  section.interactive .wrapper .item--2 {
-    padding-left: 6rem;
+@media (max-width: 991px) {
+  .Interactive__col:not(.Interactive__col--main):before {
+    left: 1rem;
+    width: 100px;
   }
 }
 
-section.interactive .wrapper .item--2 .box {
+.Interactive__col:nth-child(5):before, .Interactive__col:nth-child(6):before {
+  background-color: #b3b3b3;
+}
+
+.Interactive__col .box {
   width: 100%;
 }
 
-section.interactive .wrapper .item .box {
-  width: 100%;
-}
-
-section.interactive .main--title {
+.Interactive__headline {
   color: #666666;
   font-weight: 300;
   max-width: 850px;
   margin: 0 auto;
 }
 
-section.interactive .title {
+.Interactive__title {
   color: #306f52;
 }
 
-section.interactive .title + * {
+.Interactive__title + * {
   margin-top: 1rem;
 }
 
-section.interactive .copy {
+.Interactive__copy {
   width: 100%;
   max-width: 420px;
 }
 
-section.interactive .copy + * {
+@media (min-width: 1200px) {
+  .Interactive__copy {
+    min-height: 72px;
+  }
+}
+
+.Interactive__copy + * {
   margin-top: 4rem;
 }
 
-section.interactive .audio-player {
+.Interactive__player {
   justify-content: space-between;
 }
 
-section.interactive .audio-player .logo {
+.Interactive__player__logo {
   flex: 1;
   background: #62927c;
   max-width: -webkit-fit-content;
@@ -1613,27 +1647,27 @@ section.interactive .audio-player .logo {
 }
 
 @media (max-width: 767px) {
-  section.interactive .audio-player .logo {
+  .Interactive__player__logo {
     flex: 0 1 100%;
     max-width: 100%;
     margin: 0 auto 0.5rem;
   }
 }
 
-section.interactive .audio-player .logo img {
+.Interactive__player__logo img {
   width: 100%;
   margin: auto;
 }
 
-section.interactive .audio-player .logo img.jeopardy-logo {
+.Interactive__player__logo img.jeopardy-logo {
   max-width: 100px;
 }
 
-section.interactive .audio-player .logo img.liberty-mutual-logo {
+.Interactive__player__logo img.liberty-mutual-logo {
   max-width: 130px;
 }
 
-section.interactive .audio-player .player {
+.Interactive__player__audio {
   flex: 2;
   background: #306f52;
   height: 90px;
@@ -1641,18 +1675,18 @@ section.interactive .audio-player .player {
 }
 
 @media (max-width: 767px) {
-  section.interactive .audio-player .player {
+  .Interactive__player__audio {
     flex: 0 1 100%;
   }
 }
 
-section.interactive .audio-player .player .box {
+.Interactive__player__audio .box {
   max-width: -webkit-fit-content;
   max-width: -moz-fit-content;
   max-width: fit-content;
 }
 
-section.interactive select {
+.Interactive select {
   font-size: 1.4rem;
   font-weight: 400;
   height: 45px;
@@ -1667,80 +1701,80 @@ section.interactive select {
   background-size: 12px 12px;
 }
 
-section.interactive select:focus, section.interactive select:hover, section.interactive select:target, section.interactive select:active {
+.Interactive select:focus, .Interactive select:hover, .Interactive select:target, .Interactive select:active {
   border: solid 1px #d6ce8d;
 }
 
-section.interactive select + .btn {
+.Interactive select + .btn {
   margin-top: 1.5rem;
 }
 
-section.interactive .btn {
+.Interactive .btn {
   max-width: 242.5px;
   width: 100%;
 }
 
-section.interactive .form {
+.Interactive__form {
   justify-content: space-between;
 }
 
-section.interactive .form .col {
+.Interactive__form .col {
   flex: 0 1 48.5%;
 }
 
 @media (max-width: 1199px) and (min-width: 992px) {
-  section.interactive .form .col {
+  .Interactive__form .col {
     flex: 0 1 100%;
   }
 }
 
 @media (max-width: 767px) {
-  section.interactive .form .col {
+  .Interactive__form .col {
     flex: 0 1 100%;
   }
 }
 
 @media (min-width: 1200px) {
-  section.interactive .form .col--3 {
+  .Interactive__form .col--3 {
     margin-top: 1.5rem;
   }
 }
 
 @media (min-width: 1200px) {
-  section.interactive .form .form-group:not(:last-child) {
+  .Interactive__form .form-group:not(:last-child) {
     margin-bottom: 1.5rem;
   }
 }
 
 @media (max-width: 1199px) {
-  section.interactive .form .form-group {
+  .Interactive__form .form-group {
     margin-bottom: 1.5rem;
   }
 }
 
-section.interactive ul.moreinfo {
+.Interactive ul.moreinfo {
   list-style: none;
   margin: 3rem 0 0;
   padding: 0;
   border-top: solid 1px #b3b3b3;
 }
 
-section.interactive ul.moreinfo li {
+.Interactive ul.moreinfo li {
   border-bottom: solid 1px #b3b3b3;
   padding: 1.5rem 0;
 }
 
-section.interactive ul.moreinfo p {
+.Interactive ul.moreinfo p {
   font-size: 1.4rem;
   text-transform: capitalize;
 }
 
-section.interactive ul.moreinfo strong {
+.Interactive ul.moreinfo strong {
   color: #306f52;
   font-weight: bold;
 }
 
-section.interactive .audio-player {
+.Interactive__player {
   margin-top: 5rem;
 }
 
